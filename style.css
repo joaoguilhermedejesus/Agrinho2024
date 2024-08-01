@@ -1,10 +1,43 @@
-.fundo{
+body {
     background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.t1{
-    color: yellow;
+header {
     text-align: center;
-    font-size: 70px;
+    padding: 50px 0;
 }
 
+h1 {
+    font-size: 70px;
+    color: yellow;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 36px;
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
